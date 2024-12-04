@@ -1,0 +1,256 @@
+.headerr {
+    margin-left: 8px;
+    width: 1250px;
+    height: auto;
+    position: relative;
+    background-color: #003b95;
+    color: aliceblue;
+}
+
+body {
+    padding: 0px;
+    margin: 0 auto;
+    height: 800px;
+    background-color: lightgrey;
+}
+
+header {
+    position: relative;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.menu-dau {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    height: 10px;
+}
+
+.hang {
+    border-radius: 2px;
+}
+
+.hang ul li a {
+    color: aliceblue;
+}
+
+.hang ul li a:hover {
+    color: bisque;
+}
+
+.hang li {
+    list-style-type: none;
+}
+
+.hang li a {
+    text-decoration: none;
+}
+
+.shopping-mail {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-variant: small-caps;
+}
+
+.shopping-mail h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+    /* padding-top: 60px; */
+}
+
+.shopping-mail h5 {
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+nav {
+    line-height: 30px;
+    background-color: yellow;
+}
+
+.container>div>* {
+    min-height: 250px;
+    /* background-color: aqua; */
+}
+
+.container>div>article {
+    background-color: white;
+}
+
+.trenn {
+    text-decoration: none;
+}
+
+.ungdung i:hover {
+    color: bisque;
+}
+
+.panel-default {
+    padding-top: 13px;
+}
+
+.poly-cart {
+    margin-top: 7px;
+}
+
+.poly-cart ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0px;
+}
+
+.poly-cart img {
+    width: 70px;
+    margin-left: 15px;
+}
+
+.poly-cart input {
+    margin-left: 15px;
+    width: 260px;
+}
+
+.box1 {
+    width: 65%;
+    height: 50px;
+    float: left;
+}
+
+.box1>i {
+    color: red;
+}
+
+.box2>del {
+    color: red;
+    font-size: 17px;
+}
+
+.box2 {
+    width: 30%;
+    height: 50px;
+
+    float: right;
+}
+
+.box2>p {
+    margin-top: 0px;
+}
+
+.imgg a {
+    color: #89BDB1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 2350px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #003e6c;
+    padding: 30px;
+    gap: 50px;
+    color: white;
+}
+
+.footer p {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer .coppy-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer .coppy-right img {
+    width: 60px;
+    height: 45px;
+}
+
+.footer ul {
+    margin-top: 32px;
+}
+
+.navbar-nav li.nav-item a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/* Tạo đường kẻ chạy từ trái sang phải */
+.navbar-nav li.nav-item a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-nav li.nav-item a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    /* Điều chỉnh độ cao của đường kẻ chạy */
+    width: 0;
+    height: 2px;
+    background-color: white;
+    /* Màu sắc của đường kẻ chạy (thay đổi theo ý muốn) */
+    transition: width 0.3s ease;
+    /* Hiệu ứng chuyển động */
+}
+
+.navbar-nav li.nav-item a:hover::before {
+    width: 100%;
+}
+
+.car a:hover {
+    text-decoration: none;
+}
+
+.the-a a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+    margin-bottom: -6px;
+    display: block;
+}
+
+.the-a a:hover {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.tt-cs a {
+    text-decoration: none;
+    font-size: 13px;
+    color: aliceblue;
+}
+
+.tt-cs a:hover {
+    text-decoration: none;
+}
+
+.email h4:hover {
+    color: beige;
+}
+
+.giaithuong a {
+    color: aliceblue;
+}
+
+.giaithuong a:hover {
+    color: bisque;
+}
+
+.doiTac .col-sm-2 img:hover {
+    border: 2px solid #89BDB1;
+}
